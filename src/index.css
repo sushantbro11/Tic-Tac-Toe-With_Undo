@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes up the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    /* Add any additional styling for your squares here */
+    margin: 4px;
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    text-align: center;
+    line-height: 150px;
+    font-size: 60px;
+  }
+
+ .game {
+  display: flex;
+    align-items: left;
+    justify-content: center;
+ }
+
+ .game-info {
+  padding-left:100px;
+ }
